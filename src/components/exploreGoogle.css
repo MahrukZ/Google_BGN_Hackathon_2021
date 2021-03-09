@@ -1,0 +1,106 @@
+.exploregoogle-page {
+    background-color: #282c34;
+    color: white;
+}
+
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 2rem 0 0.5rem 0;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.explore-tabs {
+    box-shadow: inset 0 1000px 500px -500px #282c34;
+    background-color: #181a1f;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid white !important;
+}
+
+.item-cards.container {
+    width: auto;
+    height: auto;
+}
+
+#explore-tab-group-tab-opportunities,
+#explore-tab-group-tab-events,
+#explore-tab-group-tab-groups {
+    background-color: #282c34 !important;
+    border: none;
+    border-bottom: 1px solid white !important;
+    color: white;
+}
+
+#explore-tab-group-tab-opportunities:hover,
+#explore-tab-group-tab-events:hover,
+#explore-tab-group-tab-groups:hover {
+    background-color: #707070 !important;
+}
+
+#explore-tab-group-tab-opportunities.active,
+#explore-tab-group-tab-events.active,
+#explore-tab-group-tab-groups.active {
+    background-color: #282c34 !important;
+    border: 1px solid white !important;
+    border-bottom: 1px solid #282c34 !important;
+}
+
+.card-text {
+    color: black;
+}
+
+.joinButtonPlacement {
+    color: white ;
+    font-weight: bold;
+
+}
+
+.joinButtonPlacement.btn-primary:hover {
+    color:black ;
+}
+
+#explore-chat-btn {
+    color: white;
+    position: absolute;
+    right: 2rem;
+    margin: 0;
+}
+
+#profile-btn {
+    color: white;
+    position: absolute;
+    right: 8rem;
+    margin: 0;
+}
