@@ -1,3 +1,7 @@
+![new-google-logo-animated-1441195158](https://user-images.githubusercontent.com/68380691/112719542-bafbd800-8ef9-11eb-8ecf-0bc27c9fd2a9.gif)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
